@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#b98289">
+  <meta name="description" content="Helmiina888 — Enlightenment Works ja avoimet ideat, aineistot ja menetelmät.">
+  <title>Helmiina888 — Enlightenment Works</title>
+  <style>
+    :root { --rose:#b98289; --rose-deep:#9d626d; --green:#426b50; --green-dark:#31553e; --paper:#fbf6f2; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; padding:28px 18px; background:radial-gradient(ellipse at 15% 12%,rgba(255,255,255,.25),transparent 42%),radial-gradient(ellipse at 88% 90%,rgba(92,57,63,.12),transparent 38%),var(--rose); color:var(--green); font-family:"Aptos","Segoe UI",sans-serif; }
+    main { width:min(100%,780px); text-align:center; padding:clamp(38px,8vw,78px) clamp(22px,7vw,72px); background:rgba(251,246,242,.96); border:1px solid rgba(255,255,255,.65); border-radius:28px; box-shadow:0 24px 70px rgba(68,40,45,.16); }
+    .eyebrow { display:flex; align-items:center; justify-content:center; gap:13px; margin-bottom:26px; color:var(--rose-deep); font-size:12px; font-weight:700; letter-spacing:.2em; text-transform:uppercase; }
+    .eyebrow::before,.eyebrow::after { content:""; width:36px; height:1px; background:currentColor; opacity:.65; }
+    h1 { margin:0; color:var(--green-dark); font-family:Georgia,"Times New Roman",serif; font-size:clamp(2.6rem,9vw,5.2rem); font-weight:500; letter-spacing:-.045em; line-height:1.05; }
+    .tagline { margin:20px 0 0; color:var(--rose-deep); font-family:Georgia,"Times New Roman",serif; font-size:clamp(1.15rem,3vw,1.6rem); font-style:italic; line-height:1.5; }
+    .rule { width:58px; height:2px; margin:30px auto; background:var(--rose); }
+    .intro { max-width:510px; margin:0 auto; font-size:1.05rem; line-height:1.85; }
+    .links { display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin-top:32px; }
+    .links a { display:inline-block; padding:12px 19px; border-radius:999px; border:1px solid rgba(66,107,80,.35); color:var(--green-dark); font-weight:650; text-decoration:none; transition:background .2s,color .2s; }
+    .links a.primary { background:var(--green); color:white; border-color:var(--green); }
+    .links a:hover { background:var(--rose); color:white; border-color:var(--rose); }
+    footer { margin-top:42px; font-size:.75rem; font-weight:700; letter-spacing:.18em; opacity:.78; }
+    @media(max-width:420px) { main { border-radius:22px; } footer { letter-spacing:.1em; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Helmiina888 · GitHub</div>
+    <h1>Enlightenment<br>Works</h1>
+    <p class="tagline">Ajatuksia, jotka avaavat uusia näkökulmia.</p>
+    <div class="rule" aria-hidden="true"></div>
+    <p class="intro">Tervetuloa kehitystyön kotiin. Tavoitteena on luoda hyödyllisiä aineistoja, avoimia ideoita ja menetelmiä, jotka auttavat ymmärtämään ja tekemään asioita uudella tavalla.</p>
+    <nav class="links" aria-label="Sivustolinkit">
+      <a class="primary" href="https://enlightenmentworks.online/">Enlightenment Works</a>
+      <a href="https://github.com/Helmiina888">GitHub-profiili</a>
+    </nav>
+    <footer>SELKEYTTÄ · OIVALLUKSIA · MAHDOLLISUUKSIA</footer>
+  </main>
+</body>
+</html>
